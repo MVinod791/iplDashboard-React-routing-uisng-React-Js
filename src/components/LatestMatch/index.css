@@ -1,0 +1,102 @@
+/* Write your CSS here */
+.latest-item {
+  list-style-type: none;
+}
+.responsive-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 52px;
+}
+.latest-items-container {
+  background-color: #0f172a;
+  border: 8px solid #f26d22;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 16px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .latest-items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 12px;
+    padding-left: -10px;
+    width: 95%;
+  }
+}
+.latest-match {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .latest-match {
+    font-size: 20px;
+    margin-left: 52px;
+  }
+}
+.competing-team {
+  color: #ffffff;
+}
+.date {
+  color: #ffffff;
+}
+.venue {
+  color: #ffffff;
+}
+.result {
+  color: #ffffff;
+  text-align: left;
+}
+
+.label-name {
+  color: #ffffff;
+}
+.label-value {
+  color: #ffffff;
+}
+.competing-logo {
+  width: 150px;
+  margin: 20px;
+}
+.left-items {
+  text-align: left;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .left-items {
+    text-align: left;
+  }
+}
+.right-items {
+  text-align: right;
+  margin-left: 20px;
+}
+@media screen and (min-width: 768px) {
+  .right-items {
+    text-align: left;
+    margin-left: -48%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    width: 100%;
+    color: #ffffff;
+  }
+}
+.upper-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .upper-container {
+    display: flex;
+    align-items: center;
+  }
+}
